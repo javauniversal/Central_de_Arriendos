@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_principal">#2196F3</color>
+    <color name="color_principal_secundario">#E3F2FD</color>
+    <color name="color_principal_tercero">#BBDEFB</color>
+    <color name="color_principal_cuarta">#E3F2FD</color>
+    <color name="color_principal_qunto">#E3F2FD</color>
+    <color name="color_principal_ultimo">#0D47A1</color>
+
+
+    <color name="transparent_holo_light_blue">#4433b5e5</color>
+    <color name="grid_item_bg_shadow">#20000000</color>
+    <color name="grid_item_bg_pressed">#D8D8D8</color>
+
+</resources>

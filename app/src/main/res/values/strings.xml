@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="app_name">Central de Arriendos</string>
+    <string name="title_activity_act_mapas">Central de arriendos</string>
+    <string name="title_activity_act_main">ActMain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="skip">Bienvenido!</string>
+    <string name="drawer_open">Menu Opened</string>
+    <string name="drawer_close">Menu Closed</string>
+
+    <!-- Listado del menu -->
+    <string name="drawer_inmueble">Inmuebles</string>
+    <string name="drawer_buscar">Buscar</string>
+    <string name="drawer_mapas">Mapas</string>
+    <string name="drawer_salir">Salir</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_streeview">Street View Maps</string>
+    <string name="arrendador">Pulse aquí para contactar al arrendador</string>
+    <string name="version">Versión 5.5.1</string>
+    <string name="copyright">Copyright 2013 2014</string>
+    <string name="codigoBuscar">Buscar por código</string>
+    <string name="tipoN">Tipo de Negocio</string>
+    <string name="muni">Municipio</string>
+    <string name="barr">Barrio</string>
+    <string name="nego">Tipo de Propiedad</string>
+    <string name="buscarIn">Buscar</string>
+    <string name="buscarAvamzada">Avanzada</string>
+    <string name="ciu">Ciudad</string>
+    <string name="pre">Precio</string>
+    <string name="desc">Desde</string>
+    <string name="hast">Hasta</string>
+    <string name="area">Área</string>
+    <string name="estrato">Estrato</string>
+    <string name="habi">Nro. Habitaciones</string>
+    <string name="bano">Nro. Baños</string>
+    <string name="Descripcion_imagen">Galeria de imagen</string>
+    <string name="ficha">Ficha Técnica</string>
+    <string name="inmo">Inmobiliaria</string>
+    <string name="admin">Administración</string>
+    <string name="street">Consulte el área en Google Street View</string>
+    <string name="info">Información de Contacto</string>
+    <string name="contacto">Contacto</string>
+    <string name="correo">E-mail</string>
+    <string name="telefon">Telefono</string>
+    <string name="codigo">Código</string>
+    <string name="codigo_cusqueda">Introduzca el código para la búsqueda</string>
+    <string name="sinConexion">Sin conexión</string>
+    <string name="sinDatos">No hay resultados</string>
+
+    <!-- Textos de la plantilla busqueda de ariendos -->
+    <string name="app_ciudad">Ciudad</string>
+    <string name="app_municipio">Municipio</string>
+    <string name="app_barrio">Barrio</string>
+    <string name="app_tipo">Tipo de negocio</string>
+    <string name="app_tipo_propiedad">Tipo de propiedad</string>
+    <string name="app_estrato">Estrato</string>
+    <string name="app_precios">Rango de precios</string>
+    <string name="app_valor">$ 0.00</string>
+    <string name="app_desde">Precio desde:</string>
+    <string name="app_hasta">Precio hasta:</string>
+    <!-- Fin -->
+
+    <!-- Textos botoones generales -->
+    <string name="app_buscar">Buscar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_grid_item_bg"
+    android:showDividers="none">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="3dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/listicon"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@drawable/radius_generic"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_below="@+id/listicon"
+            android:layout_alignLeft="@+id/listicon"
+            android:layout_alignStart="@+id/listicon">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ciudad:"
+                android:textColor="#fff"
+                android:id="@+id/ciudad"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barrio:"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:id="@+id/barrio"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio:"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:id="@+id/precio"/>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

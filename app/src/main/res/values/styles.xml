@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_principal_qunto</item>
+        <item name="colorPrimaryDark">@color/color_principal</item>
+        <item name="colorAccent">@color/color_principal_qunto</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="WeListView" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/button_transparent</item>
+        <item name="android:divider">@android:color/transparent</item>
+    </style>
+
+    <style name="SecondaryTextLime" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/color_principal_ultimo</item>
+    </style>
+
+    <style name="SecondaryText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/color_principal_ultimo</item>
+    </style>
+
+    <style name="PrimaryText">
+        <item name="android:textSize">@dimen/card_primary_text_size</item>
+        <item name="android:textColor">@color/color_principal_ultimo</item>
+    </style>
+
+    <style name="ListItemTitle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/color_principal_ultimo</item>
+    </style>
+
+    <style name="TransparentButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_transparent</item>
+    </style>
+
+
+</resources>
